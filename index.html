@@ -9,25 +9,34 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1> ⭐bienvenido a mi sitio web ⭐ </h1>
-    <p> felicidades, acabamos de desplegar una pagina web en la nube 🎉</p>
-    <center> 
-        <h1> login a la pagina web </h1> 
-    </center>
-    <div class="input-group mb-3">
-        <center>        
-            <span class="input-group-text" id="inputGroup-sizing-lg">user</span>
-            <input type="text" class="form-control" placeholder="User" aria-label="Username" aria-describedby="basic-addon1">
-            <br>
-            <span class="input-group-text" id="basic-addon1">contraseña</span>
-            <input type="password" placeholder="contraseña">
-            <br>
-            <a onclick="link()" id="link">Terminos y condiciones</a>
-
-        </center>
+    <div id="total">
+        <div class="text-center" id="div1">
+            <h1>⭐ Bienvenido a mi sitio web ⭐</h1>
+            <p>Felicidades, acabamos de desplegar una página web en la nube 🎉</p>
+            <h2>Login a la página web</h2> 
+        </div>
+        <div id="div2">
+            <div class="input-group mb-3" id="login">     
+                <span class="input-group-text" id="inputGroup-sizing-lg">Usuario</span>
+                <input type="text" class="form-control" placeholder="User" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3" id="div3">
+                <span class="input-group-text" id="basic-addon1">Contraseña</span>
+                <input type="password" class="form-control" placeholder="Contraseña" aria-label="Contraseña">
+            </div>
+            <div>
+                <center>
+                    <a onclick="link()" class="link">Términos y condiciones</a>
+                </center>  
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-text">
+                  <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                </div>
+                <label class="form-check-label ms-2" id="label">¿Aceptas los términos y condiciones?</label>
+            </div>    
+        </div>
     </div>
-        
-
 
 </body>
 </html>
